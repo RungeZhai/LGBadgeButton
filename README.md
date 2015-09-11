@@ -6,8 +6,10 @@ A UIButton subclass with a ribbon and text on the top-right.
 <img src="https://cloud.githubusercontent.com/assets/3366713/9813741/cf028d1a-58ba-11e5-988c-60065de1c3a2.png" width=203 />
 
 ###Usage
-Just include the two file and you are good to go. 
+Just include the following two files and you are good to go. 
+
 `LGBadgeButton.h`
+
 `LGBadgeButton.m`
 
 Ther are 4 properties you can set:
