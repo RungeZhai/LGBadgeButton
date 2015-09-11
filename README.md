@@ -21,8 +21,8 @@ Ther are 4 properties you can set:
 @property (nonatomic, strong) IBInspectable UIColor *badgeBackgroundColor;
 ```
 The meaning of the properties above is pretty much as the names imply.
-As you can see from the code, those properties are interface builder inspectable, you can configure the properties in the xib or storyboard, except that unfortunately, UIFont is not supported by interface builder by now.
-The last 3 properties have default value if they are not set. `badgeTextFont` is system default font with an auto-adjusted size according to the ribbon height. And `badgeTextColor` is whiteColor by default. `badgeBackgroundColor` is (r:240, g:110, b:100) by default.
+As you can see from the code, those properties are interface builder inspectable, you can configure them in the xib or storyboard, except that unfortunately, UIFont is not supported by interface builder by now.
+The last 3 properties have default values if they are not set. `badgeTextFont` is system default font with an auto-adjusted size according to the ribbon height. And `badgeTextColor` is whiteColor by default. `badgeBackgroundColor` is (r:240, g:110, b:100) by default.
 
 ###Under The Hood
 The ribbon is a CAShapeLayer and the Text is in a CATextLayer.
