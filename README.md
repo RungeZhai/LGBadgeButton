@@ -3,7 +3,7 @@ A UIButton subclass with a ribbon and text on the top-right.
 
 
 ###Demo
-<img src="https://cloud.githubusercontent.com/assets/3366713/9813741/cf028d1a-58ba-11e5-988c-60065de1c3a2.png">
+<img src="https://cloud.githubusercontent.com/assets/3366713/9813741/cf028d1a-58ba-11e5-988c-60065de1c3a2.png" width=203 />
 
 ###Usage
 Just include the two file and you are good to go. 
@@ -26,4 +26,4 @@ The ribbon is a CAShapeLayer and the Text is in a CATextLayer.
 
 About the coordinate calculating, please refer to the draft below. The ribbon height is 1/2 height of the button. 
 
-<img src="https://cloud.githubusercontent.com/assets/3366713/9813738/cd80b46c-58ba-11e5-9b80-a7a8b62ae994.png">
+<img src="https://cloud.githubusercontent.com/assets/3366713/9813738/cd80b46c-58ba-11e5-9b80-a7a8b62ae994.png" width=602 />
