@@ -19,6 +19,12 @@
 
 @implementation LGBadgeButton
 
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    _badgeText = NSLocalizedString(_badgeText, nil);
+}
+
 - (void)layoutSubviews {
     
     [super layoutSubviews];
@@ -27,7 +33,7 @@
     CGPoint center = (CGPoint){size.width - .25 * size.height, .25 * size.height};
     
     CGFloat height = sqrt(2) * size.height / 4;
-    CGFloat tweak = height * .1;// Make badge a little wider
+    CGFloat tweak = height * .1;// Make ribbon a little wider
     CGFloat width = height * 3 + tweak * 2;
     
     
