@@ -12,7 +12,7 @@ Just include the following two files and you are good to go.
 
 `LGBadgeButton.m`
 
-Ther are 4 properties you can set:
+There are 4 properties you can set:
 
 ```objective-c
 @property (nonatomic, copy) IBInspectable NSString *badgeText;
